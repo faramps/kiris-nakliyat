@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Playfair_Display } from "next/font/google";
+import {Inter} from "next/font/google";
 import "./globals.css";
 import HeaderComponent from "@/Components/HeaderComponent";
 import FooterComponent from "@/Components/FooterComponent";
 
+// const inter = Playfair_Display({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
